@@ -1,0 +1,32 @@
+#navbar {
+    background: pink;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#navbar ul li {
+    list-style: none;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin:0px 5px;
+    float: right;
+}
+
+#sidebar {
+    background: grey;
+    height: 500px;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    
+}
+#content {
+    background: grey;
+    height: 500px;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
