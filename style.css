@@ -15,12 +15,12 @@
 
 #sidebar {
     background: grey;
-    height: 500px;
     width: 300px;
+    height: 500px;
     border-radius: 5px;
     margin-top: 10px;
     display: inline-block;
-    
+
 }
 #content {
     background: grey;
@@ -29,8 +29,15 @@
     border-radius: 5px;
     margin-top: 10px;
     display: inline-block;
+    vertical-align:top;
 }
 #image {
     width: 100%;
     height: 100%;
+    vertical-align: top;
+}
+
+/*rules for classses*/
+.hide {
+  display: none;
 }

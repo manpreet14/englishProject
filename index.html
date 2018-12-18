@@ -2,7 +2,7 @@
     <head>
         <link rel="stylesheet" href="style.css" type="text/css">
         <style></style>
-        <script></script>
+        <script src="script.js"></script>
     </head>
     <body>
         <div id="navbar">
@@ -15,7 +15,7 @@
         </div>
         <div id="sidebar">
             <ul>
-               <li>Parts of Speech</li>
+               <li onclick="toggleNextSibling()">Parts of Speech</li>
                 <ul>
                     <li>Noun</li>
                     <li>Pronoun</li>
@@ -27,16 +27,16 @@
                     <li>Conjunction</li>
                     <li>Interjection</li>
                 </ul>
-            <li>Simple Sentences</li>
+            <li onclick="toggleNextSibling()">Simple Sentences</li>
                 <ul>
                     <li>Present</li>
                     <li>Past</li>
                     <li>Future</li>
                 </ul>
-                <li>Tenses</li>
+                <li onclick="toggleNextSibling()">Tenses</li>
             </ul>
         </div>
         <div id="content"><img id="image" alt="parts of speech" src="parts of speech.png"></div>
-        
+
     </body>
 </html>
