@@ -31,18 +31,18 @@ main {
 
 /*styles based on ids*/
   #navbar {
-    background-image: url('english banner.png');
-    height: 232px;
     max-width: 1173px;
-    background-repeat: no-repeat;
     box-shadow: 3px 3px 5px 0px grey;
-    padding-top: 1px;
     margin: 0px auto;
-    padding-right: 25px;
-    box-sizing: border-box;
+    position: relative;
 
 }
-
+#navbar ul{
+  position: absolute;
+  top:0px;
+  right:0px;
+  padding-right: 10px;
+}
 #navbar ul li {
     list-style: none;
     display: inline-block;
@@ -78,6 +78,9 @@ main {
   margin: 0px auto;
 }
 
+#banner{
+  width:100%;
+}
 /*styles based on classes*/
 .hide {
   display: none;
