@@ -40,14 +40,13 @@ main {
     margin: 0px auto;
     padding-right: 25px;
     box-sizing: border-box;
-
+    
 }
 
 #navbar ul li {
     list-style: none;
     display: inline-block;
     float: right;
-
 }
 
 #sidebar {
