@@ -3,7 +3,11 @@
 body {
   background: #f0f0ef;
 }
-li{
+ul{
+  padding-left: 0px;
+}
+
+.list1 li{
   background: #008369;
   Margin: 5px;
   padding: 5px;
@@ -13,12 +17,12 @@ li{
   color: white;
 }
 
-li:hover{
+.list1 li:hover{
   background: #006a55;
 }
 
 div {
-  border-radius: 5px;
+
   vertical-align: top;
 }
 
@@ -29,24 +33,38 @@ main {
   display: flex;
 }
 
+footer{
+  background: #008369;
+  width: 1173px;
+    height:40px;
+    padding-top: 1px;
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+}
+
 /*styles based on ids*/
-  #navbar {
+  nav {
     background-image: url('english banner.png');
     height: 232px;
     max-width: 1173px;
     background-repeat: no-repeat;
-    box-shadow: 3px 3px 5px 0px grey;
+
     padding-top: 1px;
     margin: 0px auto;
     padding-right: 25px;
     box-sizing: border-box;
-    
+
 }
 
-#navbar ul li {
+nav ul li {
     list-style: none;
     display: inline-block;
     float: right;
+    padding: 5px;
+    background:#008369;
+    margin-right: 5px;
+    color: white;
 }
 
 #sidebar {
@@ -55,8 +73,9 @@ main {
     min-width: 175px;
     margin-top: 10px;
     margin-right: 20px;
+    padding-left: 5px;
     display: inline-block;
-    box-shadow: 3px 3px 5px 0px grey;
+
 
 }
 #content {
@@ -67,7 +86,6 @@ main {
     padding: 5px;
     display: inline-block;
     vertical-align:top;
-    box-shadow: 3px 3px 5px 0px grey;
 }
 
 #diagram{
@@ -81,11 +99,40 @@ main {
 .hide {
   display: none;
 }
-#footer{
-  background: #008369;
-    height:40px;
-    padding-top: 1px;
+
+.rounded{
+    border-radius: 5px;
 }
-#footer footer{
-    text-align: center; 
+
+.shadow {
+  box-shadow: 3px 3px 5px 0px grey;
+}
+
+
+.list2 li{
+  background: white;
+  Margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 0px;
+  list-style: none;
+  color: 008369;
+}
+
+.list2 li:hover{
+  background: #ddd;
+}
+
+.list3 li{
+  background: #008369;
+  Margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 0px;
+  list-style: none;
+  color: white;
+}
+
+.list3 li:hover{
+  background: #006a55;
 }

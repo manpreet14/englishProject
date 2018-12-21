@@ -5,19 +5,19 @@
         <script src="script.js"></script>
     </head>
     <body>
-        <div id="navbar">
+        <nav id="navbar" class="shadow rounded">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact Us</li>
-                <li>Home</li>
+                <li class="rounded">Home</li>
+                <li class="rounded">About</li>
+                <li class="rounded">Contact Us</li>
+                <li class="rounded">Home</li>
             </ul>
-        </div>
+        </nav>
         <main>
-          <div id="sidebar">
-            <ul>
-               <li onclick="toggleNextSibling()">Parts of Speech</li>
-                <ul>
+          <div id="sidebar" class="shadow rounded">
+            <ul class="list1">
+              <li onclick="togglefirstChild()">Parts of Speech
+                <ul class="hide list2">
                     <li>Noun</li>
                     <li>Pronoun</li>
                     <li>Adjective</li>
@@ -28,48 +28,52 @@
                     <li>Conjunction</li>
                     <li>Interjection</li>
                 </ul>
-               <li onclick="toggleNextSibling()">Simple Sentences</li>
-                <ul>
+              </li>
+              <li onclick="togglefirstChild()">Simple Sentences
+                <ul class="hide list2">
                     <li>Present</li>
                     <li>Past</li>
                     <li>Future</li>
                 </ul>
-                <li onclick="toggleNextSibling()">Tenses</li>
-                <ul>
-                    <li onclick="toggleNextSibling()">Present Tense</li>
-                    <ul>
-                    <li>Present Indefinite Tense</li>
-                    <li>Present Continuous Tense</li>
-                    <li>Present Perfect Tense</li>
-                    <li>Present Perfect Continuous Tense</li>
+              </li>
+              <li onclick="togglefirstChild()">Tenses
+                <ul class="hide list2">
+                    <li onclick="togglefirstChild()">Present Tense
+                      <ul class="hide list3">
+                      <li>Present Indefinite Tense</li>
+                      <li>Present Continuous Tense</li>
+                      <li>Present Perfect Tense</li>
+                      <li>Present Perfect Continuous Tense</li>
+                      </ul>
+                    </li>
+                    <li onclick="togglefirstChild()">Past Tense
+                      <ul class="hide list3">
+                          <li>Past Indefinite Tense</li>
+                          <li>Past Continuous Tense</li>
+                          <li>Past Perfect Tense</li>
+                          <li>Past Perfect Continuous Tense</li>
+                      </ul>
+                    </li>
+                    <li onclick="togglefirstChild()">Future Tense
+                      <ul class="hide list3">
+                          <li>Future Indefinite Tense</li>
+                          <li>Future Continuous Tense</li>
+                          <li>Future Perfect Tense</li>
+                          <li>Future Perfect Continuous Tense</li>
+                      </ul>
+                    </li>
                 </ul>
-                    <li onclick="toggleNextSibling()">Past Tense</li>
-                    <ul>
-                    <li>Past Indefinite Tense</li>
-                    <li>Past Continuous Tense</li>
-                    <li>Past Perfect Tense</li>
-                    <li>Past Perfect Continuous Tense</li>
-                </ul>
-                    <li onclick="toggleNextSibling()">Future Tense</li>
-                    <ul>
-                    <li>Future Indefinite Tense</li>
-                    <li>Future Continuous Tense</li>
-                    <li>Future Perfect Tense</li>
-                    <li>Future Perfect Continuous Tense</li>
-                </ul>
-                </ul>
-            <li>Models</li>
-            <li>Pharsal Verbs</li>
-              </ul>
+              </li>
+              <li>Models</li>
+              <li>Pharsal Verbs</li>
+            </ul>
           </div>
-          <div id="content">
+          <div id="content" class="shadow rounded">
             <img id="diagram" src="diagram.svg">
           </div>
         </main>
-        <div id="footer">
-            <footer>Disclaimer | Privacy Policy <br/> Copyright @ 2018. All Right Reserved.
+        <footer class="shadow rounded">
+          Disclaimer | Privacy Policy <br/> Copyright @ 2018. All Right Reserved.
         </footer>
-        </div>
-
     </body>
 </html>

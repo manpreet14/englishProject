@@ -1,3 +1,4 @@
-function toggleNextSibling(){
-  event.target.nextElementSibling.classList.toggle("hide");
+function togglefirstChild(){
+if(event.currentTarget == event.target)
+event.target.firstElementChild.classList.toggle("hide");
 }
