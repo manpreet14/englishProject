@@ -42,7 +42,12 @@ footer{
     margin: 20px auto;
     color: white;
 }
-
+table, tr, td{
+    border: 1px solid black;
+}
+p{
+    color: crimson;
+}
 /*styles based on ids*/
   nav {
     background-image: url('english banner.png');
